@@ -19,6 +19,13 @@
 git https://github.com/mikeshihyaolin/3d_body_pose_rgb_img.git
 ```
 
+## Preparation
++ preprocess the data by using my [tools](https://github.com/mikeshihyaolin/2d_pose_openpose)
++ make a folder for repacing the pretrained [pose model](https://drive.google.com/file/d/1_2CCb_qsA1egT5c2s0ABuW3rQCDOLvPq/view) and download it
+```
+mkdir model
+```
+
 ## Usages
 1. generate run script
 ```
@@ -30,6 +37,3 @@ sh ./run_script.sh
 ```
 
 *The 3D human pose inference is based on the approach by [Zhou et al. (ICCV’17)](https://github.com/xingyizhou/pytorch-pose-hg-3d)
-
-
-# 3d_pose_img
